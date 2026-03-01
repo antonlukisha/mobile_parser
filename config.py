@@ -12,10 +12,6 @@ LEMANA_HOST: Final = urlparse(LEMANA_URL).hostname or ""
 LEMANA_APIKEY: Final = os.getenv("LEMANA_APIKEY") or ""
 LEMANA_USER_ID: Final = os.getenv("LEMANA_USER_ID") or ""
 
-LEMANA_ACCESS_TOKEN: Final = os.getenv("LEMANA_ACCESS_TOKEN") or ""
-
-LEMANA_FIREBASE_ID: Final = os.getenv("LEMANA_FIREBASE_ID") or ""
-
 LEMANA_APP_VERSION: Final = os.getenv("LEMANA_APP_VERSION") or ""
 LEMANA_MOBILE_VERSION: Final = os.getenv("LEMANA_MOBILE_VERSION") or ""
 LEMANA_MOBILE_VERSION_OS: Final = os.getenv("LEMANA_MOBILE_VERSION_OS") or ""

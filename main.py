@@ -4,9 +4,9 @@ from datetime import datetime
 from pathlib import Path
 
 from logger import logger
-from src import DataExporter
-from src import Store, City, OutputFormat
-from src import LemanaParser, LentaParser
+from src.exporters import DataExporter
+from src.models import Store, OutputFormat, City
+from src.parsers import LemanaParser, LentaParser
 
 
 def run_parser(store: Store, city: City, file_format: OutputFormat) -> None:

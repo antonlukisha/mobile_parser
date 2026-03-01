@@ -14,7 +14,7 @@ dependencies = [
 ]
 
 [project.scripts]
-parser = "main:__main__"
+parser = "main:main"
 
 [build-system]
 requires = ["hatchling"]

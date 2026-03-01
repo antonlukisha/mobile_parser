@@ -42,7 +42,7 @@ class LemanaParser(StoreParser):
                 "User-Agent": "ktor-client",
                 "mobile-platform": "ios",
                 "user_id": config.LEMANA_USER_ID,
-                "plp-srp-view": "mixed",
+                "plp-srp-view": "tile",
                 "app_version": config.LEMANA_APP_VERSION,
                 "mobile-version": config.LEMANA_MOBILE_VERSION,
                 "cat4-monetization": "true",
